@@ -1,0 +1,26 @@
+baseURL = "http://localhost:1313/" # Update later when deploying
+languageCode = "en-us"
+title = "Zero to Random"
+theme = "PaperMod"
+
+# Updated pagination setting
+pagination.pagerSize = 5
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowToc = true
+  defaultTheme = "auto"
+  homeInfoParamsTitle = "Welcome to Zero to Random"
+  homeInfoParamsContent = "From nothing to everything — one post at a time."
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
