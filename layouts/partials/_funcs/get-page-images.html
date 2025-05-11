@@ -1,0 +1,11 @@
+{{ $images := slice }}
+{{ if .Params.images }}
+    {{ $images = .Params.images }}
+{{ else if .Params.image }}
+    {{ $images = slice .Params.image }}
+{{ else }}
+    {{ with .Resources.GetMatch "featured-image*" }}
+        {{ $images = slice .Permalink }}
+    {{ end }}
+{{ end }}
+{{ return $images }} 

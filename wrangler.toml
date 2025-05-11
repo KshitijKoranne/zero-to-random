@@ -1,6 +1,9 @@
+[site]
+bucket = "./public"
+
 [build]
 command = "hugo --gc --minify"
-publish = "public"
+pages_build_output_dir = "public"
 
 [build.environment]
 HUGO_VERSION = "0.146.0" 
