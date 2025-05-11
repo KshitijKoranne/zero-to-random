@@ -4,18 +4,21 @@ title = "Zero to Random"
 theme = "PaperMod"
 
 # Updated pagination setting
-pagination.pagerSize = 5
+[pagination]
+  pagerSize = 5
 
 [params]
   ShowReadingTime = true
   ShowShareButtons = true
   ShowToc = true
   defaultTheme = "auto"
-  homeInfoParamsTitle = "Welcome to Zero to Random"
-  homeInfoParamsContent = "From nothing to everything — one post at a time."
-  # Google Analytics ID (leave empty if not using)
   GoogleAnalyticsID = ""
 
+  [params.homeInfoParams]
+    Title = "Welcome to Zero to Random"
+    Content = "From nothing to everything — one post at a time."
+
+# Main navigation menu
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -23,6 +26,7 @@ pagination.pagerSize = 5
     url = "/about/"
     weight = 1
 
+# Taxonomies
 [taxonomies]
   category = "categories"
   tag = "tags"
