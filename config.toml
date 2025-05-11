@@ -13,6 +13,8 @@ pagination.pagerSize = 5
   defaultTheme = "auto"
   homeInfoParamsTitle = "Welcome to Zero to Random"
   homeInfoParamsContent = "From nothing to everything — one post at a time."
+  # Google Analytics ID (leave empty if not using)
+  GoogleAnalyticsID = ""
 
 [menu]
   [[menu.main]]
