@@ -12,11 +12,15 @@ theme = "PaperMod"
   ShowShareButtons = true
   ShowToc = true
   defaultTheme = "auto"
+  homeInfoParamsTitle = "Welcome to Zero to Random"
+  homeInfoParamsContent = "From nothing to everything — one post at a time."
+  # Google Analytics ID (leave empty if not using)
   GoogleAnalyticsID = ""
 
-  [params.homeInfoParams]
-    Title = "Welcome to Zero to Random"
-    Content = "From nothing to everything — one post at a time."
+[params.footer]
+  hideCopyright = true
+  hidePoweredBy = true
+  text = "© KSK Labs"
 
 # Main navigation menu
 [menu]
