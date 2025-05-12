@@ -29,6 +29,9 @@ theme = "PaperMod"
     hidePoweredBy = true
     text = "© KSK Labs"
 
+  [params.analytics.google]
+    SiteVerificationTag = "zS0AXK2uoxHuGOMStQbKmYuTT0KWwlWVcbTG26GwlEY"
+
 # Main navigation menu
 [menu]
   [[menu.main]]
