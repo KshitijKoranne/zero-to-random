@@ -30,6 +30,11 @@ theme = "PaperMod"
     name = "About"
     url = "/about/"
     weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
 
 # Taxonomies
 [taxonomies]
