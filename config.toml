@@ -7,6 +7,12 @@ theme = "PaperMod"
 [pagination]
   pagerSize = 5
 
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
   ShowReadingTime = true
   ShowShareButtons = true
